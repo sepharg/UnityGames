@@ -1,0 +1,27 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660M (ID=0xfd4)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.134 seconds
+Platform assembly: E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Daniel\Downloads\sistemas\Unity 5\RollABall\Roll A Ball\rollaball_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.262380 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 18f4 -> priority: 1 
+  Thread -> id: 45a4 -> priority: 1 
