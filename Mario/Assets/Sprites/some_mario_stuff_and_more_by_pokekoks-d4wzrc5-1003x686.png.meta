@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f65f7d799df355a43a86d67731a10fd4
-timeCreated: 1474929328
+timeCreated: 1475014074
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -37,7 +37,7 @@ TextureImporter:
     21300060: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_30
     21300062: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_31
     21300064: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_32
-    21300066: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_33
+    21300066: Floor_1
     21300068: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_34
     21300070: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_35
     21300072: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_36
@@ -567,10 +567,10 @@ TextureImporter:
       name: Mario_Stand
       rect:
         serializedVersion: 2
-        x: 8
-        y: 491
-        width: 37
-        height: 41
+        x: 7
+        y: 494
+        width: 38
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,7 +629,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_33
+      name: Floor_1
       rect:
         serializedVersion: 2
         x: 641
@@ -1971,10 +1971,10 @@ TextureImporter:
       name: some_mario_stuff_and_more_by_pokekoks-d4wzrc5-1003x686_136
       rect:
         serializedVersion: 2
-        x: 45
-        y: 492
+        x: 46
+        y: 493
         width: 38
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
