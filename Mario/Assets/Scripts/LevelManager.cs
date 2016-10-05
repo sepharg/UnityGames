@@ -6,8 +6,9 @@ using UnityStandardAssets._2D;
 public class LevelManager : MonoBehaviour
 {
     public GameObject currentCheckpoint;
-    private GameObject player;
     public float respawnDelay;
+    public GameObject deathParticle;
+    private GameObject player;
     private Rigidbody2D rigidBody;
     private Animator animator;
     private Platformer2DUserControl script;
@@ -40,6 +41,10 @@ public class LevelManager : MonoBehaviour
             animator.SetTrigger("Dying"); // trigger Die animation
             seconds = GetAnimationClip(animator, "RobotDeath").length - 0.05f; // wait for die animation to complete. some magic number so that player doesn´t stand idle before dissapearing!
             yield return new WaitForSeconds(seconds);
+        }
+        else
+        {
+            Instantiate(deathParticle, player.transform.position, player.transform.rotation);
         }
         
         playerRenderer.enabled = false; // hide the player 
