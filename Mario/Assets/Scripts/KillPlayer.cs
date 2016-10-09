@@ -20,7 +20,7 @@ public class KillPlayer : MonoBehaviour
     // Update is called once per frame
 	void Update ()
 	{
-	    isColliding = false;
+	    isColliding = false; // prevent calling RespawnPlayer more than 1 time (since player keeps colliding with the enemy "while dying")
 	}
 
     void OnTriggerEnter2D(Collider2D other)

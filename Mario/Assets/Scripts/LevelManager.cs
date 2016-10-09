@@ -31,10 +31,7 @@ public class LevelManager : MonoBehaviour
 
     public IEnumerator DoRespawnPlayer(bool playAnimation)
     {
-        rigidBody.velocity = Vector2.zero; // stop the player
-        var currentGravity = rigidBody.gravityScale;
-        rigidBody.gravityScale = 0f;
-        script.enabled = false; // disable the player
+        var currentGravity = DisablePlayer();
         float seconds = 0;
         if (playAnimation)
         {
@@ -58,17 +55,26 @@ public class LevelManager : MonoBehaviour
             yield return new WaitForSeconds(respawnDelay);
         }
 
-        GoToCheckpointAndStart(currentGravity);
+        GoToCheckpointAndEnablePlayer(currentGravity);
     }
 
-    private void GoToCheckpointAndStart(float gravity)
+    private float DisablePlayer()
+    {
+        rigidBody.velocity = Vector2.zero; // stop the player
+        var currentGravity = rigidBody.gravityScale;
+        rigidBody.gravityScale = 0f; // 0 gravity. used when falling to death (to stop keeping falling after dead!)
+        script.enabled = false; // disable the player
+        return currentGravity;
+    }
+
+    private void GoToCheckpointAndEnablePlayer(float gravity)
     {
         player.transform.position = currentCheckpoint.transform.position; // move the player to the checkpoint
+        rigidBody.gravityScale = gravity;
         script.enabled = true; // enable the player
         playerRenderer.enabled = true; // show the player
-        rigidBody.gravityScale = gravity;
     }
-    
+
     private AnimationClip GetAnimationClip(Animator animator, string name)
     {
         if (!animator) return null; // no animator

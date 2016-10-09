@@ -21,6 +21,9 @@ namespace UnityStandardAssets._2D
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         private bool doubleJump = false; // whether we´ve already double jumped
 
+        public Transform firePoint;
+        public GameObject fireProjectile;
+
         private void Awake()
         {
             // Setting up references.
@@ -53,7 +56,7 @@ namespace UnityStandardAssets._2D
         }
 
 
-        public void Move(float move, bool crouch, bool jump)
+        public void Move(float move, bool crouch, bool jump, bool fire)
         {
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
@@ -99,11 +102,20 @@ namespace UnityStandardAssets._2D
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
-                m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-                if (!doubleJump && !m_Grounded)
+                if (!doubleJump && jump)
                 {
-                    doubleJump = true; 
+                    var currentVelocity = m_Rigidbody2D.velocity; // set velocity to 0 to avoid pressing double jump twice fast and add a massive jump force to the player
+                    currentVelocity.y = 0;
+                    m_Rigidbody2D.velocity = currentVelocity;
+                    doubleJump = true;
                 }
+                m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            }
+
+            // Fire Ninja Star
+            if (fire)
+            {
+                Instantiate(fireProjectile, firePoint.position, firePoint.rotation);
             }
         }
 
