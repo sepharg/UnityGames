@@ -8,6 +8,7 @@ public class NinjaStarController : MonoBehaviour
     public GameObject enemyDeathEffect;
     public GameObject impactEffect;
     public int points = 20;
+    public int damageToGive = 1;
 
     private Rigidbody2D rigidBody;
     private PlatformerCharacter2D player;
@@ -33,9 +34,17 @@ public class NinjaStarController : MonoBehaviour
     {
         if (!other.CompareTag("Player") && other.CompareTag("Enemy"))
         {
-            Instantiate(enemyDeathEffect, other.transform.position, other.transform.rotation);
-            DestroyObject(other.gameObject);
-            ScoreManager.AddPoints(points);
+            var enemyHealthManager = other.GetComponent<EnemyHealthManager>();
+            if (enemyHealthManager != null) // enemies with health system
+            {
+                enemyHealthManager.GiveDamage(damageToGive);
+            }
+            else // single hit enemies
+            {
+                Instantiate(enemyDeathEffect, other.transform.position, other.transform.rotation);
+                DestroyObject(other.gameObject);
+                ScoreManager.AddPoints(points);
+            }
         }
         Instantiate(impactEffect, transform.position, transform.rotation);
         DestroyObject(gameObject);

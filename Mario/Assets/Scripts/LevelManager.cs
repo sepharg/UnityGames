@@ -71,6 +71,7 @@ public class LevelManager : MonoBehaviour
     {
         player.transform.position = currentCheckpoint.transform.position; // move the player to the checkpoint
         rigidBody.gravityScale = gravity;
+        FindObjectOfType<HealthManager>().FullHealth(); // reset health of the player
         script.enabled = true; // enable the player
         playerRenderer.enabled = true; // show the player
     }
