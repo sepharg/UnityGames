@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: aa568fc53d1ef4c4c8d2974071db4256
-timeCreated: 1476135117
+timeCreated: 1476995346
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hurtClip: {fileID: 8300000, guid: 5716ae55ffca38a48b0ac66806c6da10, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -11,8 +11,9 @@ public class LevelManager : MonoBehaviour
     private GameObject player;
     private Rigidbody2D rigidBody;
     private Animator animator;
-    private Platformer2DUserControl script;
+    private Platformer2DUserControl playerMovementScript;
     private Renderer playerRenderer;
+    private PlatformerCharacter2D playerScript;
 
     // Use this for initialization
 	void Start ()
@@ -20,8 +21,9 @@ public class LevelManager : MonoBehaviour
 	    player = GameObject.FindGameObjectWithTag("Player");
         rigidBody = player.GetComponent<Rigidbody2D>();
         animator = player.GetComponent<Animator>();
-        script = player.GetComponent<Platformer2DUserControl>();
-        playerRenderer = player.GetComponent<Renderer>();
+        playerMovementScript = player.GetComponent<Platformer2DUserControl>();
+	    playerScript = player.GetComponent<PlatformerCharacter2D>();
+	    playerRenderer = player.GetComponent<Renderer>();
     }
 
     public void RespawnPlayer(bool playAnimation)
@@ -63,7 +65,7 @@ public class LevelManager : MonoBehaviour
         rigidBody.velocity = Vector2.zero; // stop the player
         var currentGravity = rigidBody.gravityScale;
         rigidBody.gravityScale = 0f; // 0 gravity. used when falling to death (to stop keeping falling after dead!)
-        script.enabled = false; // disable the player
+        playerMovementScript.enabled = false; // disable the player
         return currentGravity;
     }
 
@@ -72,7 +74,8 @@ public class LevelManager : MonoBehaviour
         player.transform.position = currentCheckpoint.transform.position; // move the player to the checkpoint
         rigidBody.gravityScale = gravity;
         FindObjectOfType<HealthManager>().FullHealth(); // reset health of the player
-        script.enabled = true; // enable the player
+        playerScript.knockBackCount = 0;
+        playerMovementScript.enabled = true; // enable the player
         playerRenderer.enabled = true; // show the player
     }
 

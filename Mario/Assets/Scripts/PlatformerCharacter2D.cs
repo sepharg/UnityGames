@@ -1,4 +1,5 @@
 using System;
+using UnityEditor;
 using UnityEngine;
 
 namespace UnityStandardAssets._2D
@@ -24,6 +25,15 @@ namespace UnityStandardAssets._2D
         public Transform firePoint;
         public GameObject fireProjectile;
 
+        public AudioClip JumpAudioClip;
+        private AudioSource audioSource;
+
+        // Knockback Stuff
+        public float knockBack;
+        public float knockBackLength;
+        public float knockBackCount;
+        public bool knockFromRight;
+
         private void Awake()
         {
             // Setting up references.
@@ -31,6 +41,7 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+            audioSource = GetComponent<AudioSource>();
         }
 
 
@@ -80,21 +91,31 @@ namespace UnityStandardAssets._2D
                 // The Speed animator parameter is set to the absolute value of the horizontal input.
                 m_Anim.SetFloat("Speed", Mathf.Abs(move));
 
-                // Move the character
-                m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
+                // Move the character, only if it´s not being knocked back
+                if (knockBackCount <= 0)
+                {
+                    m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
 
-                // If the input is moving the player right and the player is facing left...
-                if (move > 0 && !m_FacingRight)
-                {
-                    // ... flip the player.
-                    Flip();
-                }
+                    // If the input is moving the player right and the player is facing left...
+                    if (move > 0 && !m_FacingRight)
+                    {
+                        // ... flip the player.
+                        Flip();
+                    }
                     // Otherwise if the input is moving the player left and the player is facing right...
-                else if (move < 0 && m_FacingRight)
-                {
-                    // ... flip the player.
-                    Flip();
+                    else if (move < 0 && m_FacingRight)
+                    {
+                        // ... flip the player.
+                        Flip();
+                    }
                 }
+                else
+                {
+                    m_Rigidbody2D.velocity = new Vector2(knockBack*(knockFromRight?-1:1), knockBack);
+                    knockBackCount -= Time.deltaTime;
+                }
+
+                
             }
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground") || (!m_Grounded && !doubleJump && jump))
@@ -102,6 +123,7 @@ namespace UnityStandardAssets._2D
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
+                audioSource.PlayOneShot(JumpAudioClip);
                 if (!doubleJump && jump)
                 {
                     var currentVelocity = m_Rigidbody2D.velocity; // set velocity to 0 to avoid pressing double jump twice fast and add a massive jump force to the player
