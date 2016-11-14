@@ -8,12 +8,14 @@ public class HealthManager : MonoBehaviour
     private bool isDead;
     private Text text;
     private LevelManager levelManager;
+	private LifeManager lifeManager;
 
     // Use this for initialization
     void Start () {
         text = GetComponent<Text>();
         playerHealth = maxPlayerHealth;
         levelManager = FindObjectOfType<LevelManager>();
+		lifeManager = FindObjectOfType<LifeManager> ();
     }
 	
 	// Update is called once per frame
@@ -21,7 +23,8 @@ public class HealthManager : MonoBehaviour
 	    if (playerHealth <= 0 && !isDead)
 	    {
 	        playerHealth = 0; // in case we get a negative value
-	        levelManager.RespawnPlayer(true);
+			lifeManager.TakeLife(); // substract 1 life from player
+			levelManager.RespawnPlayer(true);
 	        isDead = true;
 	    }
 	    text.text = playerHealth.ToString();

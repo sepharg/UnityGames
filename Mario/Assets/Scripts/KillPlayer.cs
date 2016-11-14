@@ -7,6 +7,7 @@ public class KillPlayer : MonoBehaviour
     private LevelManager _levelManager;
     private Animator _animator;
     private bool isColliding;
+	private LifeManager lifeManager;
 
     public int points = 5; // how many points to subtract for dying.
     public bool playDeathAnimation = true;
@@ -15,6 +16,7 @@ public class KillPlayer : MonoBehaviour
 	void Start ()
 	{
 	    _levelManager = FindObjectOfType<LevelManager>();
+		lifeManager = FindObjectOfType<LifeManager> ();
 	}
 
     // Update is called once per frame
@@ -31,6 +33,7 @@ public class KillPlayer : MonoBehaviour
             _animator = other.GetComponent<Animator>();
             ScoreManager.AddPoints(-points);
             _levelManager.RespawnPlayer(playDeathAnimation);
+			lifeManager.TakeLife(); // substract 1 life from player
             Debug.Log("Collision" + DateTime.Now.Millisecond);
         }
     }
