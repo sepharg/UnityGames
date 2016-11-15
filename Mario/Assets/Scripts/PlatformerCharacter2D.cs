@@ -22,6 +22,12 @@ namespace UnityStandardAssets._2D
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         private bool doubleJump = false; // whether we´ve already double jumped
 
+		// Ladder climb stuff
+		public bool onLadder;
+		public float climbSpeed;
+		private float climbVelocity;
+		private float gravityStore;
+
         public Transform firePoint;
         public GameObject fireProjectile;
 
@@ -42,8 +48,8 @@ namespace UnityStandardAssets._2D
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
             audioSource = GetComponent<AudioSource>();
+			gravityStore = m_Rigidbody2D.gravityScale;
         }
-
 
         private void FixedUpdate()
         {
@@ -115,6 +121,14 @@ namespace UnityStandardAssets._2D
                     knockBackCount -= Time.deltaTime;
                 }
 
+				// climbing ladder
+				if (onLadder) {
+					m_Rigidbody2D.gravityScale = 0f;
+					climbVelocity = climbSpeed * Input.GetAxisRaw ("Vertical");
+					m_Rigidbody2D.velocity = new Vector2 (m_Rigidbody2D.velocity.x, climbVelocity);
+				} else {
+					m_Rigidbody2D.gravityScale = gravityStore;
+				}
                 
             }
             // If the player should jump...
