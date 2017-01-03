@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: 348cbb18c5e9d184fa621534de5478cb
-timeCreated: 1479247897
+timeCreated: 1483459804
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: GPJ_2D_Platformer_Sprites_0
     21300002: GPJ_2D_Platformer_Sprites_1
     21300004: GPJ_2D_Platformer_Sprites_2
-    21300006: GPJ_2D_Platformer_Sprites_3
+    21300006: enemy_star
     21300008: ninja_star
     21300010: GPJ_2D_Platformer_Sprites_5
     21300012: GPJ_2D_Platformer_Sprites_6
@@ -109,7 +109,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GPJ_2D_Platformer_Sprites_3
+      name: enemy_star
       rect:
         serializedVersion: 2
         x: 35
