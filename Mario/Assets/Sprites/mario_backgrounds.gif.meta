@@ -1,0 +1,3041 @@
+fileFormatVersion: 2
+guid: c8d88f88ec92bba4c861d84798a31299
+timeCreated: 1483481964
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mario_backgrounds_0
+    21300002: mario_backgrounds_1
+    21300004: mario_backgrounds_2
+    21300006: background_cloud
+    21300008: mario_backgrounds_4
+    21300010: mario_backgrounds_5
+    21300012: mario_backgrounds_6
+    21300014: mario_backgrounds_7
+    21300016: mario_backgrounds_8
+    21300018: mario_backgrounds_9
+    21300020: mario_backgrounds_10
+    21300022: mario_backgrounds_11
+    21300024: mario_backgrounds_12
+    21300026: background_bush1
+    21300028: mario_backgrounds_14
+    21300030: background_bush_1
+    21300032: mario_backgrounds_16
+    21300034: background_blocks_2
+    21300036: background_bush_2
+    21300038: background_blocks1
+    21300040: mario_backgrounds_20
+    21300042: mario_backgrounds_21
+    21300044: mario_backgrounds_22
+    21300046: mario_backgrounds_23
+    21300048: mario_backgrounds_24
+    21300050: mario_backgrounds_25
+    21300052: mario_backgrounds_26
+    21300054: mario_backgrounds_27
+    21300056: mario_backgrounds_28
+    21300058: mario_backgrounds_29
+    21300060: mario_backgrounds_30
+    21300062: mario_backgrounds_31
+    21300064: mario_backgrounds_32
+    21300066: mario_backgrounds_33
+    21300068: mario_backgrounds_34
+    21300070: mario_backgrounds_35
+    21300072: mario_backgrounds_36
+    21300074: mario_backgrounds_37
+    21300076: mario_backgrounds_38
+    21300078: mario_backgrounds_39
+    21300080: mario_backgrounds_40
+    21300082: mario_backgrounds_41
+    21300084: mario_backgrounds_42
+    21300086: mario_backgrounds_43
+    21300088: mario_backgrounds_44
+    21300090: mario_backgrounds_45
+    21300092: mario_backgrounds_46
+    21300094: mario_backgrounds_47
+    21300096: mario_backgrounds_48
+    21300098: mario_backgrounds_49
+    21300100: mario_backgrounds_50
+    21300102: mario_backgrounds_51
+    21300104: mario_backgrounds_52
+    21300106: mario_backgrounds_53
+    21300108: mario_backgrounds_54
+    21300110: mario_backgrounds_55
+    21300112: mario_backgrounds_56
+    21300114: mario_backgrounds_57
+    21300116: mario_backgrounds_58
+    21300118: mario_backgrounds_59
+    21300120: mario_backgrounds_60
+    21300122: mario_backgrounds_61
+    21300124: mario_backgrounds_62
+    21300126: mario_backgrounds_63
+    21300128: mario_backgrounds_64
+    21300130: mario_backgrounds_65
+    21300132: mario_backgrounds_66
+    21300134: mario_backgrounds_67
+    21300136: mario_backgrounds_68
+    21300138: mario_backgrounds_69
+    21300140: mario_backgrounds_70
+    21300142: mario_backgrounds_71
+    21300144: mario_backgrounds_72
+    21300146: mario_backgrounds_73
+    21300148: mario_backgrounds_74
+    21300150: mario_backgrounds_75
+    21300152: mario_backgrounds_76
+    21300154: mario_backgrounds_77
+    21300156: mario_backgrounds_78
+    21300158: mario_backgrounds_79
+    21300160: mario_backgrounds_80
+    21300162: mario_backgrounds_81
+    21300164: mario_backgrounds_82
+    21300166: mario_backgrounds_83
+    21300168: mario_backgrounds_84
+    21300170: mario_backgrounds_85
+    21300172: mario_backgrounds_86
+    21300174: mario_backgrounds_87
+    21300176: mario_backgrounds_88
+    21300178: mario_backgrounds_89
+    21300180: mario_backgrounds_90
+    21300182: mario_backgrounds_91
+    21300184: mario_backgrounds_92
+    21300186: mario_backgrounds_93
+    21300188: mario_backgrounds_94
+    21300190: mario_backgrounds_95
+    21300192: mario_backgrounds_96
+    21300194: mario_backgrounds_97
+    21300196: mario_backgrounds_98
+    21300198: mario_backgrounds_99
+    21300200: mario_backgrounds_100
+    21300202: mario_backgrounds_101
+    21300204: mario_backgrounds_102
+    21300206: mario_backgrounds_103
+    21300208: mario_backgrounds_104
+    21300210: mario_backgrounds_105
+    21300212: mario_backgrounds_106
+    21300214: mario_backgrounds_107
+    21300216: mario_backgrounds_108
+    21300218: mario_backgrounds_109
+    21300220: mario_backgrounds_110
+    21300222: mario_backgrounds_111
+    21300224: mario_backgrounds_112
+    21300226: mario_backgrounds_113
+    21300228: mario_backgrounds_114
+    21300230: mario_backgrounds_115
+    21300232: mario_backgrounds_116
+    21300234: mario_backgrounds_117
+    21300236: mario_backgrounds_118
+    21300238: mario_backgrounds_119
+    21300240: mario_backgrounds_120
+    21300242: mario_backgrounds_121
+    21300244: mario_backgrounds_122
+    21300246: mario_backgrounds_123
+    21300248: mario_backgrounds_124
+    21300250: mario_backgrounds_125
+    21300252: mario_backgrounds_126
+    21300254: mario_backgrounds_127
+    21300256: mario_backgrounds_128
+    21300258: mario_backgrounds_129
+    21300260: mario_backgrounds_130
+    21300262: mario_backgrounds_131
+    21300264: mario_backgrounds_132
+    21300266: mario_backgrounds_133
+    21300268: mario_backgrounds_134
+    21300270: background_mountain
+    21300272: mario_backgrounds_136
+    21300274: mario_backgrounds_137
+    21300276: mario_backgrounds_138
+    21300278: mario_backgrounds_139
+    21300280: mario_backgrounds_140
+    21300282: mario_backgrounds_141
+    21300284: mario_backgrounds_142
+    21300286: mario_backgrounds_143
+    21300288: mario_backgrounds_144
+    21300290: mario_backgrounds_145
+    21300292: mario_backgrounds_146
+    21300294: mario_backgrounds_147
+    21300296: mario_backgrounds_148
+    21300298: mario_backgrounds_149
+    21300300: mario_backgrounds_150
+    21300302: mario_backgrounds_151
+    21300304: mario_backgrounds_152
+    21300306: mario_backgrounds_153
+    21300308: mario_backgrounds_154
+    21300310: mario_backgrounds_155
+    21300312: mario_backgrounds_156
+    21300314: mario_backgrounds_157
+    21300316: mario_backgrounds_158
+    21300318: mario_backgrounds_159
+    21300320: mario_backgrounds_160
+    21300322: mario_backgrounds_161
+    21300324: mario_backgrounds_162
+    21300326: mario_backgrounds_163
+    21300328: mario_backgrounds_164
+    21300330: mario_backgrounds_165
+    21300332: mario_backgrounds_166
+    21300334: mario_backgrounds_167
+    21300336: mario_backgrounds_168
+    21300338: mario_backgrounds_169
+    21300340: mario_backgrounds_170
+    21300342: mario_backgrounds_171
+    21300344: mario_backgrounds_172
+    21300346: mario_backgrounds_173
+    21300348: mario_backgrounds_174
+    21300350: mario_backgrounds_175
+    21300352: mario_backgrounds_176
+    21300354: mario_backgrounds_177
+    21300356: mario_backgrounds_178
+    21300358: mario_backgrounds_179
+    21300360: mario_backgrounds_180
+    21300362: mario_backgrounds_181
+    21300364: mario_backgrounds_182
+    21300366: mario_backgrounds_183
+    21300368: mario_backgrounds_184
+    21300370: mario_backgrounds_185
+    21300372: mario_backgrounds_186
+    21300374: mario_backgrounds_187
+    21300376: mario_backgrounds_188
+    21300378: mario_backgrounds_189
+    21300380: mario_backgrounds_190
+    21300382: mario_backgrounds_191
+    21300384: mario_backgrounds_192
+    21300386: mario_backgrounds_193
+    21300388: mario_backgrounds_194
+    21300390: mario_backgrounds_195
+    21300392: mario_backgrounds_196
+    21300394: mario_backgrounds_197
+    21300396: mario_backgrounds_198
+    21300398: mario_backgrounds_199
+    21300400: mario_backgrounds_200
+    21300402: mario_backgrounds_201
+    21300404: mario_backgrounds_202
+    21300406: mario_backgrounds_203
+    21300408: mario_backgrounds_204
+    21300410: mario_backgrounds_205
+    21300412: mario_backgrounds_206
+    21300414: mario_backgrounds_207
+    21300416: mario_backgrounds_208
+    21300418: mario_backgrounds_209
+    21300420: mario_backgrounds_210
+    21300422: mario_backgrounds_211
+    21300424: mario_backgrounds_212
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mario_backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 807
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 805
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_cloud
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 806
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 807
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 807
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 807
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 807
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 807
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_12
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 681
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_bush1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 682
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 754
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_bush_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 745
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 787
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_blocks_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 680
+        width: 216
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_bush_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 686
+        width: 131
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_blocks1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 679
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 635
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 652
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_22
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 657
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 656
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_24
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 657
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_25
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 580
+        width: 184
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 618
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_27
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 613
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 657
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 524
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 590
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 584
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_32
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 613
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_33
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 613
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_34
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 528
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_35
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 528
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_36
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 476
+        width: 143
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_37
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 522
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_38
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 500
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_39
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 444
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_40
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 498
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_41
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 503
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_42
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 477
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_43
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 478
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_44
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 500
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_45
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 499
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_46
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 476
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_47
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 476
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_48
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 476
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 390
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 452
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_51
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 407
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_52
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 425
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_53
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 440
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_54
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 390
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_55
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 390
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_56
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 357
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 357
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_58
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 385
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_59
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 367
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 361
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 361
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_62
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 361
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_63
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 360
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_64
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 360
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_65
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 359
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_66
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 352
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_67
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 357
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_68
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 357
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_69
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 357
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_70
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 357
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_71
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 357
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_72
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 356
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 369
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_74
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 366
+        width: 164
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_75
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 368
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_76
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 275
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_77
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 329
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_78
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_79
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 341
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_80
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 341
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_81
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 341
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_82
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 275
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_83
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 305
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_84
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 302
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_85
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 250
+        width: 103
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_86
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_87
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 275
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_88
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 287
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_89
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 206
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_90
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 227
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_91
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 250
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_92
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 251
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_93
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 251
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_94
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 251
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_95
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 251
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_96
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 206
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_97
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 222
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_98
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 221
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_99
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_100
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_101
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_102
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_103
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_104
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_105
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 217
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_106
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 217
+        width: 73
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_107
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 217
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_108
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 206
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_109
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 189
+        width: 132
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_110
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 196
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_111
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 196
+        width: 73
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_112
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 196
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_113
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 172
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_114
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 137
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_115
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_116
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_117
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_118
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 110
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_119
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 182
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_120
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 182
+        width: 69
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_121
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 182
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_122
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 110
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_123
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 165
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_124
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 165
+        width: 69
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_125
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 165
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_126
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 137
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_127
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 110
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_128
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 110
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_129
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_130
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 110
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_131
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 112
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_132
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 115
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_133
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 98
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_134
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 97
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_mountain
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 57
+        width: 110
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_136
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 100
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_137
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_138
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_139
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_140
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_141
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 93
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_142
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 106
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_143
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_144
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_145
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_146
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_147
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 104
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_148
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 104
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_149
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 104
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_150
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 104
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_151
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_152
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_153
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 104
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_154
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_155
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 85
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_156
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 81
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_157
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 85
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_158
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_159
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 81
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_160
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 81
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_161
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_162
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 85
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_163
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 85
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_164
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 81
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_165
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_166
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 6
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_167
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_168
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 54
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_169
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_170
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_171
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 66
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_172
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_173
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 66
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_174
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_175
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 47
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_176
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 47
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_177
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 66
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_178
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_179
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_180
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 24
+        width: 152
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_181
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 38
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_182
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 52
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_183
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 52
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_184
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_185
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_186
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_187
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_188
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_189
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_190
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 47
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_191
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 38
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_192
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_193
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_194
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 29
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_195
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 33
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_196
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 32
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_197
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 32
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_198
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 24
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_199
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 28
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_200
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 28
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_201
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 28
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_202
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 28
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_203
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 28
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_204
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 28
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_205
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 9
+        width: 49
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_206
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_207
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 9
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_208
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_209
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 9
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_210
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_211
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_backgrounds_212
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 9
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
